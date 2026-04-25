@@ -21,6 +21,9 @@ export default defineConfig({
         short_name: "Cricket",
         description: "Management App for Gwalior Sports Events and Activities",
         theme_color: "#000000",
+        background_color: "#000000",
+        display: "standalone",
+        start_url: "/",
         icons: [
           {
             src: "favicon-96x96.png",
@@ -29,22 +32,28 @@ export default defineConfig({
             purpose: "any",
           },
           {
+            src: "maskable_icon_x192.png",
+            sizes: "192x192",
+            type: "image/png",
+            purpose: "any",
+          },
+          {
             src: "maskable_icon_x96.png",
             sizes: "96x96",
             type: "image/png",
-            purpose: "maskable any",
+            purpose: "maskable",
           },
           {
             src: "maskable_icon_x192.png",
             sizes: "192x192",
             type: "image/png",
-            purpose: "maskable any",
+            purpose: "maskable",
           },
           {
             src: "maskable_icon_x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "maskable any",
+            purpose: "maskable",
           },
         ],
         screenshots: [
