@@ -1,0 +1,40 @@
+{
+  "short_name": "TC",
+  "name": "Sports Tracker",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "708x623",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Sports Tracker Mobile View" 
+      
+    },
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1348x633",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Sports Tracker Desktop View"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
