@@ -1,28 +1,30 @@
 {
-  "short_name": "TC",
-  "name": "Sports Tracker",
+  "short_name": "Cricket",
+  "name": "Cricket",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "48x48",
-      "type": "image/x-icon"
+      "src": "favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
     },
     {
-      "src": "/android-chrome-192x192.png",
+      "src": "web-app-manifest-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
-      "src": "/android-chrome-512x512.png",
+      "src": "web-app-manifest-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "/screenshot-mobile.png",
       "sizes": "708x623",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Sports Tracker Mobile View" 
+      "label": "Cricket Mobile View" 
       
     },
     {
@@ -30,11 +32,11 @@
       "sizes": "1348x633",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Sports Tracker Desktop View"
+      "label": "Cricket Desktop View"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#013220",
   "background_color": "#ffffff"
 }
