@@ -10,30 +10,41 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["favicon.ico", "apple-touch-icon.png","favicon-96x96.png"], // Static assets
+      includeAssets: [
+        "favicon.ico",
+        "apple-touch-icon.png",
+        "favicon-96x96.png",
+      ], // Static assets
       manifest: {
         id: "/",
         name: "Cricket",
         short_name: "Cricket",
         description: "Management App for Gwalior Sports Events and Activities",
-        theme_color: "#013220",
+        theme_color: "#000000",
         icons: [
           {
             src: "favicon-96x96.png",
             sizes: "96x96",
             type: "image/png",
+            purpose: "any",
           },
           {
-            src: "web-app-manifest-192x192.png",
+            src: "maskable_icon_x96.png",
+            sizes: "96x96",
+            type: "image/png",
+            purpose: "maskable any",
+          },
+          {
+            src: "maskable_icon_x192.png",
             sizes: "192x192",
             type: "image/png",
-            purpose: "maskable",
+            purpose: "maskable any",
           },
           {
-            src: "web-app-manifest-512x512.png",
+            src: "maskable_icon_x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "maskable",
+            purpose: "maskable any",
           },
         ],
         screenshots: [
